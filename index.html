@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>עדי לוי · תיק עבודות תפירה ועיצוב</title>
+<meta name="description" content="תיק העבודות של עדי לוי — שמלות, חצאיות, טופים וג׳קטים בעיצוב, תדמיתנות ותפירה אישית.">
+<meta name="theme-color" content="#f6e1d8">
+<meta property="og:title" content="עדי לוי · תיק עבודות">
+<meta property="og:description" content="שמלות, חצאיות, טופים וג׳קטים — מהסקיצה ועד הבגד המוגמר.">
+<meta property="og:image" content="t-dress-floral.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="t-dress-floral.jpg" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700&family=Assistant:wght@400;500;600&display=swap">
+<style>
+:root{--blush:#f6e1d8;--petal:#efcfc2;--cream:#fcf3ed;--wine:#5e1a2e;--wine2:#7a2a42;--sage:#536a4d;--leaf:#7d9374;--ochre:#a3661c;--gold:#e0a64e;--ink:#2a1a1e;--muted:#6e5a5c;--spring:cubic-bezier(.32,.72,0,1)}
+*,*::before,*::after{box-sizing:border-box}
+::selection{background:var(--wine);color:var(--cream)}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--blush);color:var(--ink);font-family:'Assistant',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::after{content:"";position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.07;mix-blend-mode:multiply;background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTYwJz48ZmlsdGVyIGlkPSduJz48ZmVUdXJidWxlbmNlIHR5cGU9J2ZyYWN0YWxOb2lzZScgYmFzZUZyZXF1ZW5jeT0nLjg1JyBudW1PY3RhdmVzPSczJyBzdGl0Y2hUaWxlcz0nc3RpdGNoJy8+PC9maWx0ZXI+PHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsdGVyPSd1cmwoI24pJy8+PC9zdmc+")}
+a{color:var(--wine);text-decoration:none}a:hover{color:var(--ochre)}
+img{display:block;max-width:100%}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--wine);outline-offset:3px}
+.serif{font-family:'Frank Ruhl Libre',Georgia,serif}
+.wrap{max-width:1320px;margin:0 auto;padding-inline:clamp(18px,4vw,40px)}
+.skip{position:absolute;top:-60px;right:16px;z-index:70;padding:10px 16px;background:var(--wine);color:var(--cream);border-radius:999px;transition:top .2s}
+.skip:focus{top:12px;color:var(--cream)}
+.tag{display:inline-flex;align-items:center;gap:8px;width:max-content;padding:6px 14px;border-radius:999px;border:1px solid rgba(94,26,46,.18);background:rgba(252,243,237,.6);font-size:13px;font-weight:600;letter-spacing:.08em;color:var(--wine)}
+.tag svg{width:14px;height:14px;color:var(--ochre)}
+
+/* floating nav */
+.nav{position:fixed;top:14px;left:50%;transform:translateX(-50%);z-index:50;width:min(920px,calc(100% - 24px));display:flex;align-items:center;justify-content:space-between;gap:16px;padding:8px 8px 8px 8px;padding-inline-start:22px;border-radius:999px;background:rgba(252,243,237,.72);-webkit-backdrop-filter:blur(16px) saturate(1.2);backdrop-filter:blur(16px) saturate(1.2);border:1px solid rgba(94,26,46,.1);box-shadow:0 12px 40px -20px rgba(94,26,46,.35)}
+.logo{display:flex;align-items:center;gap:8px;font-size:22px;font-weight:500;white-space:nowrap;color:var(--wine)}
+.logo svg{width:20px;height:20px;color:var(--ochre)}
+.links{display:flex;align-items:center;gap:clamp(12px,2.4vw,28px)}
+.links a{font-size:15px;color:var(--muted);padding:6px 0;position:relative;transition:color .3s}
+.links a::after{content:"";position:absolute;inset:auto 0 0 0;height:1.5px;background:var(--wine);transform:scaleX(0);transition:transform .5s var(--spring)}
+.links a:hover,.links a.on{color:var(--wine)}
+.links a:hover::after,.links a.on::after{transform:scaleX(1)}
+@media (max-width:720px){.links{display:none}}
+.btn{display:inline-flex;align-items:center;gap:10px;height:48px;padding-inline:20px 6px;border-radius:999px;background:var(--wine);color:var(--cream);font-size:15px;font-weight:600;white-space:nowrap;transition:background .4s var(--spring),transform .2s var(--spring)}
+.btn:hover{background:var(--wine2);color:var(--cream)}
+.btn:active{transform:scale(.97)}
+.btn i{width:36px;height:36px;border-radius:999px;background:rgba(252,243,237,.16);display:grid;place-items:center;font-style:normal;font-size:15px;transition:transform .5s var(--spring)}
+.btn:hover i{transform:translateX(-3px) scale(1.06)}
+.btn.sm{height:44px;font-size:14px;padding-inline:16px 5px}.btn.sm i{width:32px;height:32px}
+.lnk{font-size:16px;font-weight:600;color:var(--wine);border-bottom:1.5px solid rgba(94,26,46,.3);padding-bottom:2px;transition:border-color .3s}
+.lnk:hover{border-color:var(--ochre)}
+
+/* hero */
+.hero{position:relative;padding-block:clamp(120px,14vw,170px) clamp(64px,8vw,110px)}
+.hero .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:clamp(48px,6vw,80px);align-items:center}
+.hero-text{display:flex;flex-direction:column;gap:26px;position:relative;z-index:2}
+.hero h1{margin:0;font-weight:500;font-size:clamp(68px,10.5vw,148px);line-height:.92;letter-spacing:-.02em;color:var(--wine)}
+.hero h1 span{display:block;font-weight:300;font-size:.42em;letter-spacing:0;color:var(--ochre);margin-top:.35em}
+.hero p{margin:0;font-size:clamp(17px,1.5vw,20px);line-height:1.7;color:var(--muted);max-width:30em;text-wrap:pretty}
+.actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.collage{position:relative;aspect-ratio:1/1.02;width:100%;max-width:620px;justify-self:center}
+.collage .sprig{position:absolute;width:44%;height:66%;top:-6%;left:-4%;color:var(--wine);z-index:0;opacity:.9}
+.collage .sprig2{position:absolute;width:26%;height:39%;bottom:-4%;right:-6%;color:var(--sage);transform:scaleX(-1) rotate(-20deg);z-index:0}
+.frame{position:absolute;padding:8px;border-radius:26px;background:rgba(252,243,237,.55);border:1px solid rgba(94,26,46,.1);box-shadow:0 30px 60px -30px rgba(94,26,46,.5)}
+.frame>div{border-radius:19px;overflow:hidden;height:100%}
+.frame img{width:100%;height:100%;object-fit:cover}
+.f1{top:0;right:0;width:60%;aspect-ratio:3/4;transform:rotate(2.5deg);z-index:2}
+.f2{bottom:0;left:4%;width:48%;aspect-ratio:3/4;transform:rotate(-5deg);z-index:3}
+.f2::before{content:"";position:absolute;top:-12px;left:50%;width:92px;height:26px;transform:translateX(-50%) rotate(-3deg);background:rgba(224,166,78,.55);z-index:2;box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.note{position:absolute;bottom:18%;right:-2%;z-index:4;padding:10px 16px;border-radius:14px;background:var(--cream);font-size:14px;color:var(--wine);box-shadow:0 14px 30px -16px rgba(94,26,46,.45);transform:rotate(3deg);display:flex;align-items:center;gap:8px}
+.note svg{width:16px;height:16px;color:var(--ochre)}
+
+/* categories */
+main{display:flex;flex-direction:column}
+.cat{--bg:var(--blush);background:var(--bg);scroll-margin-top:40px;padding-block:clamp(80px,10vw,140px) clamp(90px,11vw,150px);position:relative;overflow:hidden}
+.cat:nth-child(even){--bg:var(--petal)}
+.cat .bloom{position:absolute;width:clamp(90px,11vw,150px);height:clamp(90px,11vw,150px);top:clamp(-30px,-2vw,-14px);left:clamp(16px,6vw,90px);color:var(--wine);opacity:.16;transform:rotate(-14deg);pointer-events:none}
+.cat:nth-child(even) .bloom{color:var(--sage);opacity:.3;transform:rotate(18deg)}
+.cat .wrap{position:relative}
+.cat-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:clamp(32px,4vw,48px);padding-bottom:28px;background:linear-gradient(90deg,var(--wine) 50%,transparent 0) bottom/12px 1.5px repeat-x}
+.cat-title{display:flex;flex-direction:column;gap:18px}
+.cat-title h2{margin:0;font-size:clamp(52px,7.5vw,104px);font-weight:500;line-height:.95;letter-spacing:-.02em;color:var(--wine)}
+.cat-title h2 small{font-family:'Assistant',sans-serif;font-size:15px;font-weight:500;letter-spacing:0;color:var(--muted);margin-inline-start:14px;vertical-align:middle}
+.arrows{display:flex;gap:10px}
+.circle{width:52px;height:52px;border-radius:999px;border:1px solid rgba(94,26,46,.3);background:rgba(252,243,237,.5);color:var(--wine);font-size:18px;cursor:pointer;display:grid;place-items:center;transition:background .4s var(--spring),color .4s,border-color .4s,transform .2s var(--spring)}
+.circle:hover{background:var(--wine);border-color:var(--wine);color:var(--cream)}
+.circle:active{transform:scale(.94)}
+.rail{display:grid;grid-auto-flow:column;grid-auto-columns:clamp(240px,27vw,330px);gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain;padding-block:10px 24px;margin-block:-10px -24px}
+.rail::-webkit-scrollbar{display:none}
+@media (max-width:640px){.rail{grid-auto-columns:76vw;gap:16px}.arrows{display:none}}
+.card{scroll-snap-align:start;display:flex;flex-direction:column;gap:16px;cursor:zoom-in;background:none;border:0;padding:0;text-align:right}
+.card .shell{padding:7px;border-radius:26px;background:rgba(252,243,237,.5);border:1px solid rgba(94,26,46,.1);transition:transform .7s var(--spring),box-shadow .7s var(--spring);box-shadow:0 14px 34px -24px rgba(94,26,46,.5)}
+.card .core{position:relative;aspect-ratio:3/4;border-radius:19px;overflow:hidden;background:var(--petal)}
+.card img{width:100%;height:100%;object-fit:cover;transition:transform 1s var(--spring)}
+.card:hover .shell{transform:translateY(-6px);box-shadow:0 28px 50px -26px rgba(94,26,46,.6)}
+.card:hover img{transform:scale(1.05)}
+.card:active .shell{transform:translateY(-2px) scale(.99)}
+.badge{position:absolute;top:12px;right:12px;padding:5px 11px;border-radius:999px;background:var(--cream);color:var(--wine);font-size:12px;font-weight:600}
+.card-info{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding-inline:6px}
+.card-name{font-size:22px;color:var(--ink);transition:color .3s}
+.card:hover .card-name{color:var(--wine)}
+.chip{flex:none;font-size:13px;font-weight:600;color:var(--sage);padding:3px 10px;border-radius:999px;background:rgba(83,106,77,.1)}
+
+/* footer */
+footer{background:var(--wine);color:var(--cream);position:relative;overflow:hidden}
+footer .wrap{padding-block:clamp(56px,7vw,88px) 32px;display:flex;flex-direction:column;gap:40px}
+.f-top{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap}
+.f-name{margin:0;font-size:clamp(48px,7vw,96px);font-weight:500;line-height:.95;letter-spacing:-.02em}
+.f-name span{display:block;font-size:.3em;font-weight:300;letter-spacing:0;color:var(--gold);margin-top:.5em}
+footer .btn{background:var(--cream);color:var(--wine)}footer .btn:hover{background:#fff;color:var(--wine)}footer .btn i{background:rgba(94,26,46,.1)}
+.f-bot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:14px;color:#e4c6c5;padding-top:22px;border-top:1px solid rgba(252,243,237,.18)}
+footer .sprig{position:absolute;width:clamp(130px,15vw,200px);height:clamp(195px,22vw,300px);left:42%;top:-40px;color:var(--gold);opacity:.3;transform:rotate(-8deg);pointer-events:none}
+@media (max-width:720px){footer .sprig{left:auto;right:55%}}
+
+/* lightbox */
+dialog{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100%;height:100%}
+dialog::backdrop{background:rgba(42,14,24,.78);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+.lb-shell{width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:clamp(0px,3vw,28px)}
+.lb{width:min(1160px,100%);max-height:100%;padding:8px;border-radius:32px;background:rgba(252,243,237,.9);box-shadow:0 40px 100px -30px rgba(0,0,0,.5);overflow:auto}
+.lb-in{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));border-radius:25px;overflow:hidden;background:var(--cream)}
+.lb-media{display:flex;flex-direction:column;background:var(--petal)}
+.lb-img{height:min(76vh,760px);display:flex;align-items:center;justify-content:center}
+.lb-img img{max-width:100%;max-height:100%;object-fit:contain}
+@media (max-width:640px){.lb{border-radius:0;padding:0}.lb-in{border-radius:0}.lb-img{height:60vh}}
+.thumbs{display:flex;gap:8px;padding:12px;justify-content:center}
+.thumbs button{width:56px;height:70px;padding:0;overflow:hidden;cursor:pointer;background:none;border:2px solid transparent;border-radius:12px;transition:border-color .3s}
+.thumbs button[aria-current="true"]{border-color:var(--wine)}
+.thumbs img{width:100%;height:100%;object-fit:cover}
+.lb-info{padding:clamp(26px,4vw,52px);display:flex;flex-direction:column;gap:22px}
+.lb-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.lb h3{margin:0;font-size:clamp(34px,4vw,52px);font-weight:500;line-height:1;letter-spacing:-.01em;color:var(--wine)}
+.lb-desc{margin:0;font-size:17px;line-height:1.8;color:var(--muted);text-wrap:pretty}
+.lb-fab{display:flex;justify-content:space-between;align-items:center;padding-block:16px;background:linear-gradient(90deg,rgba(94,26,46,.35) 50%,transparent 0) top/10px 1px repeat-x,linear-gradient(90deg,rgba(94,26,46,.35) 50%,transparent 0) bottom/10px 1px repeat-x;font-size:15px;color:var(--muted)}
+.lb-nav{margin-top:auto;display:flex;gap:10px}
+.pill{flex:1;height:52px;border-radius:999px;border:1px solid rgba(94,26,46,.3);background:transparent;color:var(--wine);font-size:15px;font-weight:600;cursor:pointer;transition:background .4s var(--spring),color .3s,transform .2s var(--spring)}
+.pill:hover{background:var(--petal)}
+.pill:active{transform:scale(.97)}
+.pill.dark{background:var(--wine);border-color:var(--wine);color:var(--cream)}
+.pill.dark:hover{background:var(--wine2)}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(36px);filter:blur(6px);transition:opacity .9s var(--spring),transform .9s var(--spring),filter .9s var(--spring);transition-delay:var(--d,0s)}
+.rv.in{opacity:1;transform:none;filter:none}
+.f1.rv.in{transform:rotate(2.5deg)}.f2.rv.in{transform:rotate(-5deg)}.note.rv.in{transform:rotate(3deg)}
+.f1.rv{transform:rotate(2.5deg) translateY(36px)}.f2.rv{transform:rotate(-5deg) translateY(36px)}.note.rv{transform:rotate(3deg) translateY(36px)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.rv{transition:none;opacity:1;filter:none}.card img,.card .shell{transition:none}}
+</style>
+</head>
+<body>
+<template id="__bundler_thumbnail" data-bg-color="#f6e1d8"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#f6e1d8"/><text x="50" y="62" text-anchor="middle" font-family="serif" font-size="32" fill="#5e1a2e">ע״ל</text></svg></template>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="fl" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.4"><ellipse cx="12" cy="6.2" rx="3" ry="4.2"/><ellipse cx="12" cy="6.2" rx="3" ry="4.2" transform="rotate(72 12 12)"/><ellipse cx="12" cy="6.2" rx="3" ry="4.2" transform="rotate(144 12 12)"/><ellipse cx="12" cy="6.2" rx="3" ry="4.2" transform="rotate(216 12 12)"/><ellipse cx="12" cy="6.2" rx="3" ry="4.2" transform="rotate(288 12 12)"/></g><circle cx="12" cy="12" r="2" fill="currentColor"/></symbol>
+  <symbol id="sprig" viewBox="0 0 200 300"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M104 296C98 240 112 186 100 112"/>
+    <path d="M102 232C78 222 62 204 58 180C82 186 98 204 102 232Z"/><path d="M80 206 72 194"/>
+    <path d="M104 196C128 190 144 172 150 148C126 152 108 170 104 196Z"/><path d="M126 174 136 164"/>
+    <path d="M101 150C84 140 76 124 76 106C92 114 101 130 101 150Z"/>
+    <path d="M106 254C124 250 138 238 144 220C126 222 112 236 106 254Z"/>
+    <path d="M100 112C88 104 74 104 66 112C70 98 86 90 100 94C114 90 130 98 134 112C126 104 112 104 100 112Z"/>
+    <path d="M100 94C92 82 92 66 100 54C108 66 108 82 100 94Z"/>
+    <path d="M100 94C86 88 74 76 72 62C86 66 96 78 100 94Z"/><path d="M100 94C114 88 126 76 128 62C114 66 104 78 100 94Z"/>
+    <path d="M58 180C46 168 40 150 44 134"/><path d="M44 134C36 128 34 118 38 110C46 114 50 124 44 134Z"/>
+    <circle cx="100" cy="98" r="3.5" fill="currentColor"/>
+  </g></symbol>
+  <symbol id="bloom" viewBox="0 0 120 120"><g fill="none" stroke="currentColor" stroke-width="1.4"><path d="M60 60C48 42 50 20 60 10C70 20 72 42 60 60Z"/><path d="M60 60C48 42 50 20 60 10C70 20 72 42 60 60Z" transform="rotate(60 60 60)"/><path d="M60 60C48 42 50 20 60 10C70 20 72 42 60 60Z" transform="rotate(120 60 60)"/><path d="M60 60C48 42 50 20 60 10C70 20 72 42 60 60Z" transform="rotate(180 60 60)"/><path d="M60 60C48 42 50 20 60 10C70 20 72 42 60 60Z" transform="rotate(240 60 60)"/><path d="M60 60C48 42 50 20 60 10C70 20 72 42 60 60Z" transform="rotate(300 60 60)"/><circle cx="60" cy="60" r="7"/><circle cx="60" cy="60" r="13" stroke-dasharray="2 4"/></g></symbol>
+</svg>
+
+<a class="skip" href="#main">דילוג לתוכן</a>
+
+<header class="nav">
+  <a href="#top" class="logo serif"><svg><use href="#fl"/></svg>עדי לוי</a>
+  <nav class="links" id="links">
+    <a href="#dresses">שמלות</a><a href="#skirts">חצאיות</a><a href="#tops">טופים</a><a href="#jackets">ג׳קטים ווסטים</a>
+  </nav>
+  <a class="btn sm wa" target="_blank" rel="noopener">צרו קשר <i>←</i></a>
+</header>
+
+<section id="top" class="hero">
+  <div class="wrap">
+    <div class="hero-text">
+      <span class="tag rv"><svg><use href="#fl"/></svg>תיק עבודות · 2026</span>
+      <h1 class="serif rv" style="--d:.08s">עדי לוי<span>תפירה ועיצוב אופנה</span></h1>
+      <p class="rv" style="--d:.16s">עיצוב, תדמיתנות ותפירה - שמלות, חצאיות, טופים וג׳קטים, מהסקיצה ועד הבגד המוגמר מותאם למידות אישיות.</p>
+      <div class="actions rv" style="--d:.24s">
+        <a class="btn" href="#dresses">לצפייה בעבודות <i>↓</i></a>
+        <a class="lnk wa" target="_blank" rel="noopener">שליחת הודעה בוואטסאפ</a>
+      </div>
+    </div>
+    <div class="collage">
+      <svg class="sprig" aria-hidden="true"><use href="#sprig"/></svg>
+      <svg class="sprig2" aria-hidden="true"><use href="#sprig"/></svg>
+      <div class="frame f1 rv" style="--d:.1s"><div><img src="t-dress-floral.jpg" width="540" height="720" alt="שמלה פרחונית לא סימטרית עם גב פתוח" fetchpriority="high"></div></div>
+      <div class="frame f2 rv" style="--d:.25s"><div><img src="t-dress-sketch.jpg" width="540" height="720" alt="סקיצה של השמלה הפרחונית"></div></div>
+      <div class="note rv" style="--d:.4s"><svg><use href="#fl"/></svg>מהסקיצה לשמלה</div>
+    </div>
+  </div>
+</section>
+
+<main id="main" tabindex="-1">
+<section id="dresses" class="cat">
+  <svg class="bloom" aria-hidden="true"><use href="#bloom"/></svg>
+  <div class="wrap">
+    <div class="cat-head rv">
+      <div class="cat-title">
+        <span class="tag"><svg><use href="#fl"/></svg>קולקציה 01</span>
+        <h2 class="serif">שמלות<small>5 פריטים</small></h2>
+      </div>
+      <div class="arrows"><button class="circle" data-scroll="1" aria-label="הקודם">→</button><button class="circle" data-scroll="-1" aria-label="הבא">←</button></div>
+    </div>
+    <div class="rail">
+      <button class="card rv" style="--d:0.00s" data-c="0" data-i="0" aria-label="הגדלה: שמלה פרחונית לא סימטרית עם גב פתוח">
+        <div class="shell"><div class="core">
+          <img src="t-dress-floral.jpg" alt="שמלה פרחונית לא סימטרית עם גב פתוח" loading="lazy" decoding="async" width="540" height="720">
+          <span class="badge">3 תמונות</span>
+        </div></div>
+        <span class="card-info"><span class="card-name serif">שמלה פרחונית לא סימטרית עם גב פתוח</span><span class="chip">אריג</span></span>
+      </button>
+      <button class="card rv" style="--d:0.08s" data-c="0" data-i="1" aria-label="הגדלה: שמלת גב פתוח צהובה ארוכה">
+        <div class="shell"><div class="core">
+          <img src="t-dress-yellow-1.jpg" alt="שמלת גב פתוח צהובה ארוכה" loading="lazy" decoding="async" width="540" height="720">
+          <span class="badge">2 תמונות</span>
+        </div></div>
+        <span class="card-info"><span class="card-name serif">שמלת גב פתוח צהובה ארוכה</span><span class="chip">סריג</span></span>
+      </button>
+      <button class="card rv" style="--d:0.16s" data-c="0" data-i="2" aria-label="הגדלה: שמלת ערב סגולה">
+        <div class="shell"><div class="core">
+          <img src="t-dress-plum.jpg" alt="שמלת ערב סגולה" loading="lazy" decoding="async" width="540" height="720">
+          <span class="badge">2 תמונות</span>
+        </div></div>
+        <span class="card-info"><span class="card-name serif">שמלת ערב סגולה</span><span class="chip">אריג</span></span>
+      </button>
+      <button class="card rv" style="--d:0.24s" data-c="0" data-i="3" aria-label="הגדלה: שמלת חלקים שווים תכלת">
+        <div class="shell"><div class="core">
+          <img src="t-dress-blue-maxi.jpg" alt="שמלת חלקים שווים תכלת" loading="lazy" decoding="async" width="540" height="720">
+          
+        </div></div>
+        <span class="card-info"><span class="card-name serif">שמלת חלקים שווים תכלת</span><span class="chip">אריג</span></span>
+      </button>
+      <button class="card rv" style="--d:0.32s" data-c="0" data-i="4" aria-label="הגדלה: שמלת גב פתוח בורדו קצרה">
+        <div class="shell"><div class="core">
+          <img src="t-dress-burgundy-mini.jpg" alt="שמלת גב פתוח בורדו קצרה" loading="lazy" decoding="async" width="540" height="720">
+          
+        </div></div>
+        <span class="card-info"><span class="card-name serif">שמלת גב פתוח בורדו קצרה</span><span class="chip">סריג</span></span>
+      </button>
+    </div>
+  </div>
+</section>
+<section id="skirts" class="cat">
+  <svg class="bloom" aria-hidden="true"><use href="#bloom"/></svg>
+  <div class="wrap">
+    <div class="cat-head rv">
+      <div class="cat-title">
+        <span class="tag"><svg><use href="#fl"/></svg>קולקציה 02</span>
+        <h2 class="serif">חצאיות<small>5 פריטים</small></h2>
+      </div>
+      <div class="arrows"><button class="circle" data-scroll="1" aria-label="הקודם">→</button><button class="circle" data-scroll="-1" aria-label="הבא">←</button></div>
+    </div>
+    <div class="rail">
+      <button class="card rv" style="--d:0.00s" data-c="1" data-i="0" aria-label="הגדלה: חצאית מעטפת עם שסע">
+        <div class="shell"><div class="core">
+          <img src="t-skirt-wrap-worn.jpg" alt="חצאית מעטפת עם שסע" loading="lazy" decoding="async" width="540" height="720">
+          <span class="badge">2 תמונות</span>
+        </div></div>
+        <span class="card-info"><span class="card-name serif">חצאית מעטפת עם שסע</span><span class="chip">אריג</span></span>
+      </button>
+      <button class="card rv" style="--d:0.08s" data-c="1" data-i="1" aria-label="הגדלה: חצאית מקסי ירוקה">
+        <div class="shell"><div class="core">
+          <img src="t-skirt-green-maxi.jpg" alt="חצאית מקסי ירוקה" loading="lazy" decoding="async" width="540" height="720">
+          
+        </div></div>
+        <span class="card-info"><span class="card-name serif">חצאית מקסי ירוקה</span><span class="chip">אריג</span></span>
+      </button>
+      <button class="card rv" style="--d:0.16s" data-c="1" data-i="2" aria-label="הגדלה: חצאית עיפרון מודפסת">
+        <div class="shell"><div class="core">
+          <img src="t-skirt-print.jpg" alt="חצאית עיפרון מודפסת" loading="lazy" decoding="async" width="540" height="720">
+          
+        </div></div>
+        <span class="card-info"><span class="card-name serif">חצאית עיפרון מודפסת</span><span class="chip">אריג</span></span>
+      </button>
+      <button class="card rv" style="--d:0.24s" data-c="1" data-i="3" aria-label="הגדלה: חצאית סגולה">
+        <div class="shell"><div class="core">
+          <img src="t-skirt-purple.jpg" alt="חצאית סגולה" loading="lazy" decoding="async" width="540" height="720">
+          
+        </div></div>
+        <span class="card-info"><span class="card-name serif">חצאית סגולה</span><span class="chip">אריג</span></span>
+      </button>
+      <button class="card rv" style="--d:0.32s" data-c="1" data-i="4" aria-label="הגדלה: חצאית מיני שחורה">
+        <div class="shell"><div class="core">
+          <img src="t-skirt-black-mini.jpg" alt="חצאית מיני שחורה" loading="lazy" decoding="async" width="540" height="720">
+          
+        </div></div>
+        <span class="card-info"><span class="card-name serif">חצאית מיני שחורה</span><span class="chip">אריג</span></span>
+      </button>
+    </div>
+  </div>
+</section>
+<section id="tops" class="cat">
+  <svg class="bloom" aria-hidden="true"><use href="#bloom"/></svg>
+  <div class="wrap">
+    <div class="cat-head rv">
+      <div class="cat-title">
+        <span class="tag"><svg><use href="#fl"/></svg>קולקציה 03</span>
+        <h2 class="serif">טופים<small>4 פריטים</small></h2>
+      </div>
+      <div class="arrows"><button class="circle" data-scroll="1" aria-label="הקודם">→</button><button class="circle" data-scroll="-1" aria-label="הבא">←</button></div>
+    </div>
+    <div class="rail">
+      <button class="card rv" style="--d:0.00s" data-c="2" data-i="0" aria-label="הגדלה: טופ מחוך">
+        <div class="shell"><div class="core">
+          <img src="t-top-corset.jpg" alt="טופ מחוך" loading="lazy" decoding="async" width="540" height="720">
+          
+        </div></div>
+        <span class="card-info"><span class="card-name serif">טופ מחוך</span><span class="chip">סריג</span></span>
+      </button>
+      <button class="card rv" style="--d:0.08s" data-c="2" data-i="1" aria-label="הגדלה: טופ כתפיות ורוד">
+        <div class="shell"><div class="core">
+          <img src="t-top-pink.jpg" alt="טופ כתפיות ורוד" loading="lazy" decoding="async" width="540" height="720">
+          
+        </div></div>
+        <span class="card-info"><span class="card-name serif">טופ כתפיות ורוד</span><span class="chip">סריג</span></span>
+      </button>
+      <button class="card rv" style="--d:0.16s" data-c="2" data-i="2" aria-label="הגדלה: טופ צהוב">
+        <div class="shell"><div class="core">
+          <img src="t-top-yellow.jpg" alt="טופ צהוב" loading="lazy" decoding="async" width="540" height="720">
+          
+        </div></div>
+        <span class="card-info"><span class="card-name serif">טופ צהוב</span><span class="chip">סריג</span></span>
+      </button>
+      <button class="card rv" style="--d:0.24s" data-c="2" data-i="3" aria-label="הגדלה: טופ תכלת">
+        <div class="shell"><div class="core">
+          <img src="t-top-blue.jpg" alt="טופ תכלת" loading="lazy" decoding="async" width="540" height="720">
+          
+        </div></div>
+        <span class="card-info"><span class="card-name serif">טופ תכלת</span><span class="chip">סריג</span></span>
+      </button>
+    </div>
+  </div>
+</section>
+<section id="jackets" class="cat">
+  <svg class="bloom" aria-hidden="true"><use href="#bloom"/></svg>
+  <div class="wrap">
+    <div class="cat-head rv">
+      <div class="cat-title">
+        <span class="tag"><svg><use href="#fl"/></svg>קולקציה 04</span>
+        <h2 class="serif">ג׳קטים ווסטים<small>2 פריטים</small></h2>
+      </div>
+      <div class="arrows"><button class="circle" data-scroll="1" aria-label="הקודם">→</button><button class="circle" data-scroll="-1" aria-label="הבא">←</button></div>
+    </div>
+    <div class="rail">
+      <button class="card rv" style="--d:0.00s" data-c="3" data-i="0" aria-label="הגדלה: ג׳קט ג׳ינס עם טואל דה ז׳וי">
+        <div class="shell"><div class="core">
+          <img src="t-jacket-denim-front.jpg" alt="ג׳קט ג׳ינס עם טואל דה ז׳וי" loading="lazy" decoding="async" width="540" height="720">
+          <span class="badge">3 תמונות</span>
+        </div></div>
+        <span class="card-info"><span class="card-name serif">ג׳קט ג׳ינס עם טואל דה ז׳וי</span><span class="chip">דנים וכותנה מודפסת</span></span>
+      </button>
+      <button class="card rv" style="--d:0.08s" data-c="3" data-i="1" aria-label="הגדלה: וסט בורדו">
+        <div class="shell"><div class="core">
+          <img src="t-vest-burgundy.jpg" alt="וסט בורדו" loading="lazy" decoding="async" width="540" height="720">
+          
+        </div></div>
+        <span class="card-info"><span class="card-name serif">וסט בורדו</span><span class="chip">צמר</span></span>
+      </button>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <svg class="sprig" aria-hidden="true"><use href="#sprig"/></svg>
+  <div class="wrap">
+    <div class="f-top">
+      <h2 class="f-name serif">עדי לוי<span>תפירה ועיצוב אופנה</span></h2>
+      <a class="btn wa" target="_blank" rel="noopener">צרו קשר בוואטסאפ <i>←</i></a>
+    </div>
+    <div class="f-bot"><span>© 2026 עדי לוי</span><span>תיק עבודות · תפירה ועיצוב</span></div>
+  </div>
+</footer>
+
+<dialog id="lb" aria-label="תצוגה מוגדלת">
+  <div class="lb-shell" id="lbShell">
+    <div class="lb"><div class="lb-in">
+      <div class="lb-media">
+        <div class="lb-img"><img id="lbImg" alt=""></div>
+        <div class="thumbs" id="lbThumbs"></div>
+      </div>
+      <div class="lb-info">
+        <div class="lb-top">
+          <span class="tag" id="lbMeta"></span>
+          <button class="circle" id="lbClose" aria-label="סגירה" style="width:46px;height:46px;font-size:16px">✕</button>
+        </div>
+        <h3 class="serif" id="lbName"></h3>
+        <p class="lb-desc" id="lbDesc"></p>
+        <div class="lb-fab"><span>בד</span><span class="chip" id="lbFab"></span></div>
+        <div class="lb-nav" id="lbNav">
+          <button class="pill" id="lbPrev">→ הקודם</button>
+          <button class="pill dark" id="lbNext">הבא ←</button>
+        </div>
+      </div>
+    </div></div>
+  </div>
+</dialog>
+
+<div id="imgs" hidden aria-hidden="true" style="display:none"><img data-k="t:dress-floral" src="t-dress-floral.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:dress-floral" src="f-dress-floral.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:dress-floral-2" src="t-dress-floral-2.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:dress-floral-2" src="f-dress-floral-2.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:dress-sketch" src="t-dress-sketch.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:dress-sketch" src="f-dress-sketch.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:dress-yellow-1" src="t-dress-yellow-1.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:dress-yellow-1" src="f-dress-yellow-1.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:dress-yellow-2" src="t-dress-yellow-2.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:dress-yellow-2" src="f-dress-yellow-2.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:dress-plum" src="t-dress-plum.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:dress-plum" src="f-dress-plum.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:dress-plum-worn" src="t-dress-plum-worn.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:dress-plum-worn" src="f-dress-plum-worn.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:dress-blue-maxi" src="t-dress-blue-maxi.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:dress-blue-maxi" src="f-dress-blue-maxi.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:dress-burgundy-mini" src="t-dress-burgundy-mini.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:dress-burgundy-mini" src="f-dress-burgundy-mini.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:skirt-wrap-worn" src="t-skirt-wrap-worn.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:skirt-wrap-worn" src="f-skirt-wrap-worn.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:skirt-wrap" src="t-skirt-wrap.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:skirt-wrap" src="f-skirt-wrap.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:skirt-green-maxi" src="t-skirt-green-maxi.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:skirt-green-maxi" src="f-skirt-green-maxi.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:skirt-print" src="t-skirt-print.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:skirt-print" src="f-skirt-print.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:skirt-purple" src="t-skirt-purple.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:skirt-purple" src="f-skirt-purple.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:skirt-black-mini" src="t-skirt-black-mini.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:skirt-black-mini" src="f-skirt-black-mini.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:top-corset" src="t-top-corset.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:top-corset" src="f-top-corset.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:top-pink" src="t-top-pink.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:top-pink" src="f-top-pink.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:top-yellow" src="t-top-yellow.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:top-yellow" src="f-top-yellow.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:top-blue" src="t-top-blue.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:top-blue" src="f-top-blue.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:jacket-denim-front" src="t-jacket-denim-front.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:jacket-denim-front" src="f-jacket-denim-front.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:jacket-denim-back" src="t-jacket-denim-back.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:jacket-denim-back" src="f-jacket-denim-back.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:jacket-denim-sketch" src="t-jacket-denim-sketch.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:jacket-denim-sketch" src="f-jacket-denim-sketch.jpg" alt="" loading="lazy" decoding="async"><img data-k="t:vest-burgundy" src="t-vest-burgundy.jpg" alt="" loading="lazy" decoding="async"><img data-k="f:vest-burgundy" src="f-vest-burgundy.jpg" alt="" loading="lazy" decoding="async"></div>
+
+<script>
+// ✏️ מספר וואטסאפ — בפורמט בינלאומי, בלי + ובלי 0 בהתחלה
+const WHATSAPP = '972538230049';
+
+// ✏️ הפריטים: [שם, בד, תיאור, [תמונות]]. אחרי שינוי כאן יש לעדכן גם את הכרטיסים ב-HTML
+const DATA = [
+  { key: 'dresses', title: 'שמלות', items: [
+    ['שמלה פרחונית לא סימטרית עם גב פתוח', 'אריג', 'שמלת מקסי עם כתפיות דקות ומחשוף V, מהסקיצה ועד הגזרה. הדפס פרחוני עדין ונפילה רכה עד הרצפה.', ['dress-floral', 'dress-floral-2', 'dress-sketch']],
+    ['שמלת גב פתוח צהובה ארוכה', 'סריג', 'שמלת מקסי בגזרת הולטר עם מחשוף V, חצאית מעגל רחבה וכיסים בתפרי הצד.', ['dress-yellow-1', 'dress-yellow-2']],
+    ['שמלת ערב סגולה', 'אריג', 'שמלת מקסי עם צווארון מרובע ושרוולי פרפר, גזרה מחויטת בגוף וחצאית מתרחבת.', ['dress-plum', 'dress-plum-worn']],
+    ['שמלת חלקים שווים תכלת', 'אריג', 'שמלה ארוכה עם מחשוף עגול, תפרי פרינססה וחצאית A רחבה.', ['dress-blue-maxi']],
+    ['שמלת גב פתוח בורדו קצרה', 'סריג', 'שמלה קצרה עם גב חשוף, גוף צמוד וחצאית מעגל.', ['dress-burgundy-mini']]
+  ]},
+  { key: 'skirts', title: 'חצאיות', items: [
+    ['חצאית מעטפת עם שסע', 'אריג', 'חצאית מידי בסגנון מעטפת, עם שסע קדמי אסימטרי וקפלים בצד.', ['skirt-wrap-worn', 'skirt-wrap']],
+    ['חצאית מקסי ירוקה', 'אריג', 'חצאית מקסי רחבה עם קפלים במותן ונפח לאורך כל הגזרה.', ['skirt-green-maxi']],
+    ['חצאית עיפרון מודפסת', 'אריג', 'חצאית עיפרון צמודה בהדפס צבעוני, עם רוכסן נסתר.', ['skirt-print']],
+    ['חצאית סגולה', 'אריג', 'חצאית ישרה באורך הברך עם כיסים קדמיים.', ['skirt-purple']],
+    ['חצאית מיני שחורה', 'אריג', 'חצאית מיני עם שכבה חופפת ומראה מבריק.', ['skirt-black-mini']]
+  ]},
+  { key: 'tops', title: 'טופים', items: [
+    ['טופ מחוך', 'סריג', 'טופ סטרפלס בגזרת מחוך עם תפרי עיצוב אנכיים.', ['top-corset']],
+    ['טופ כתפיות ורוד', 'סריג', 'טופ קצר עם כתפיות דקות.', ['top-pink']],
+    ['טופ צהוב', 'סריג', 'טופ קליל בצבע צהוב בהיר.', ['top-yellow']],
+    ['טופ תכלת', 'סריג', 'טופ קצר בגזרה צמודה.', ['top-blue']]
+  ]},
+  { key: 'jackets', title: 'ג׳קטים ווסטים', items: [
+    ['ג׳קט ג׳ינס עם טואל דה ז׳וי', 'דנים וכותנה מודפסת', 'ג׳קט קרופ עם דשים, שרוולים מקופלים וטלאי בהדפס טואל דה ז׳וי בגב — מהסקיצה ועד הביצוע.', ['jacket-denim-front', 'jacket-denim-back', 'jacket-denim-sketch']],
+    ['וסט בורדו', 'צמר', 'וסט מחויט קצר עם כפתורים וצווארון V.', ['vest-burgundy']]
+  ]}
+];
+
+const $ = id => document.getElementById(id);
+const SRC = {};
+$('imgs').querySelectorAll('img').forEach(i => { SRC[i.dataset.k] = i.getAttribute('src'); });
+const thumb = n => SRC['t:' + n] || `t-${n}.jpg`, full = n => SRC['f:' + n] || `f-${n}.jpg`;
+
+document.querySelectorAll('.wa').forEach(a => a.href = `https://wa.me/${WHATSAPP}`);
+
+const io = 'IntersectionObserver' in window;
+const rvIO = io ? new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); rvIO.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px' }) : null;
+document.querySelectorAll('.rv').forEach(el => rvIO ? rvIO.observe(el) : el.classList.add('in'));
+const navLinks = [...document.querySelectorAll('#links a')];
+if (io) {
+  const navIO = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) navLinks.forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + e.target.id));
+  }), { rootMargin: '-45% 0px -50% 0px' });
+  document.querySelectorAll('.cat').forEach(s => navIO.observe(s));
+}
+
+document.querySelectorAll('[data-scroll]').forEach(b => b.addEventListener('click', () => {
+  const rail = b.closest('.cat').querySelector('.rail');
+  const w = rail.firstElementChild.getBoundingClientRect().width + 24;
+  rail.scrollBy({ left: +b.dataset.scroll * w, behavior: 'smooth' });
+}));
+
+const dlg = $('lb');
+let cur = null;
+function render() {
+  const c = DATA[cur.c], it = c.items[cur.i], imgs = it[3];
+  $('lbImg').src = full(imgs[cur.p]);
+  $('lbImg').alt = it[0];
+  $('lbName').textContent = it[0];
+  $('lbDesc').textContent = it[2];
+  $('lbFab').textContent = it[1];
+  $('lbMeta').textContent = `${c.title} · ${cur.i + 1} / ${c.items.length}`;
+  $('lbNav').hidden = c.items.length < 2;
+  $('lbThumbs').hidden = imgs.length < 2;
+  $('lbThumbs').innerHTML = imgs.length < 2 ? '' : imgs.map((n, p) =>
+    `<button data-p="${p}" aria-current="${p === cur.p}" aria-label="תמונה ${p + 1}"><img src="${thumb(n)}" alt=""></button>`).join('');
+  imgs.forEach(n => { new Image().src = full(n); });
+}
+function open(c, i) { cur = { c, i, p: 0 }; render(); if (!dlg.open) dlg.showModal(); }
+function step(d) { const n = DATA[cur.c].items.length; cur = { c: cur.c, i: (cur.i + d + n) % n, p: 0 }; render(); }
+
+document.addEventListener('click', e => {
+  const card = e.target.closest('.card');
+  if (card) open(+card.dataset.c, +card.dataset.i);
+});
+$('lbThumbs').addEventListener('click', e => { const b = e.target.closest('[data-p]'); if (b) { cur.p = +b.dataset.p; render(); } });
+$('lbClose').onclick = () => dlg.close();
+$('lbPrev').onclick = () => step(-1);
+$('lbNext').onclick = () => step(1);
+$('lbShell').addEventListener('click', e => { if (e.target.id === 'lbShell') dlg.close(); });
+dlg.addEventListener('keydown', e => {
+  if (e.key === 'ArrowLeft') step(1);
+  if (e.key === 'ArrowRight') step(-1);
+});
+let tx = 0;
+$('lbImg').addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
+$('lbImg').addEventListener('touchend', e => {
+  const dx = e.changedTouches[0].clientX - tx;
+  if (Math.abs(dx) < 50) return;
+  const imgs = DATA[cur.c].items[cur.i][3];
+  if (imgs.length > 1) { cur.p = (cur.p + (dx > 0 ? 1 : -1) + imgs.length) % imgs.length; render(); }
+  else step(dx > 0 ? 1 : -1);
+}, { passive: true });
+</script>
+</body>
+</html>
